@@ -36,14 +36,16 @@
     </header>
 
     <div class="photo">
-      <img src="/images/cover.png" class="img-fluid">
+      <img src="/images/playerStats.png" class="img-fluid">
     </div>
 
-    <div class="col"/>
-    <div class="col">
-        <p>We are here to bring you the latest NBA stats so you never are out of the loop.  Feel free to look around our site to find out how your favorite teams and players are doing this season--or at any time in the past 25 years.</p>
+    <form>
+      <label>Search for Player</label>&nbsp;
+      <input id="playerInput" type="text" placeholder="e.g. Lebron James"></input>&nbsp;
+      <input id="playerSubmit" type="submit" value="Submit"></input>&nbsp;
+    </form>
+    <div id="playerResults">
     </div>
-    <div class="col"/>
 
     <div class='footer'>
       <div class='footer-item'>
@@ -52,8 +54,9 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script text="type/javascript" src="/script.js">
+    <script text="type/javascript" src="/playerScript.js">
     </script>
   </body>
+
 
 </html>
